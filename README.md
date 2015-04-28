@@ -10,9 +10,11 @@ bunch of tools since then.
 Maven Changelog:
   v1.0  Initial release, and it's now public!
 
-#-------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------
+
 SMSModule Framework - simple utility for sending and reading SMS from a GSM modem.
-Installation SMSLib:
+
+	Installation SMSLib:
 	Before using this SMS Utility, necessary libraries and drivers must be downloaded first at
 	http://smslib.org/doc/installation/ and must be placed into appropriate location.
 	If you're still confused from the installation page of SMSLib, you may use the files
@@ -51,18 +53,18 @@ Installation SMSLib:
 		3. Set all owners of /var/lock to “Read & Write”
 		
 
-#-------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------
 JavaMail Framework - singleton, simple utility for sending Email message.
 
-#-------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------
 XPersist - framework for handling Eclipselink's EntityManagerFactory. 
 
 This framework uses the project's persistence.xml along runtime, and alter's its URL by the specified server.
 
-#-------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------
 Serial/JSSC - framework for communicating with Serial ports.
 
 This framework uses java's native gnu.io package and a third party library JSSC. I made two different Serial library
 because I've encountered problem with JSSC on other devices. But performance wise, JSSC is better.
 	
-#-------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------
