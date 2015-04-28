@@ -12,7 +12,7 @@ Maven Changelog:
 
 #----------------------------------------------------------
 
-#SMSModule Framework - simple utility for sending and reading SMS from a GSM modem.
+SMSModule - simple utility for sending and reading SMS from a GSM modem.
 
 	Installation SMSLib:
 	Before using this SMS Utility, necessary libraries and drivers must be downloaded first at
@@ -54,16 +54,21 @@ Maven Changelog:
 		
 
 #----------------------------------------------------------
-#JavaMail Framework - simple utility for sending Email message.
+
+JavaMail Framework - simple utility for sending Email message.
 
 #----------------------------------------------------------
-#XPersist - framework for handling Eclipselink's EntityManagerFactory. 
 
-	This framework uses the project's persistence.xml along runtime, and alter's its URL by the specified server.
+XPersist - utility for handling Eclipselink's EntityManagerFactory. 
+
+	This utility uses the project's persistence.xml along runtime, 
+	and alter's its URL by the specified server.
 
 #----------------------------------------------------------
-#Serial/JSSC - framework for communicating with Serial ports.
+Serial/JSSC - utility for communicating with Serial ports.
 
-	This framework uses java's native gnu.io package and a third party library JSSC. I made two different Serial 	library because I've encountered problem with JSSC on other devices. But performance wise, JSSC is better.
+	This utility uses java's native gnu.io package and a third party library JSSC. 
+	I made two different Serial library because I've encountered problem with JSSC on 
+	other devices. But performance wise, JSSC is better.
 	
 #----------------------------------------------------------
