@@ -5,7 +5,7 @@
     <artifactId>jutils-maven</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
-    <name>JUtils-maven</name>
+    <name>jutils-maven</name>
     <description>Simple and handful utilities missing from the main Java package.</description>
     <licenses>
         <license>
