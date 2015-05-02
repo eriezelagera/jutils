@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Jutils by eriezelagera</title>
+    <title>jutils by eriezelagera</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -17,7 +17,7 @@
   <body>
 
       <header>
-        <h1>Jutils</h1>
+        <h1>jutils</h1>
         <p>Simple utilities for powerful programming</p>
       </header>
 
@@ -60,38 +60,66 @@ bunch of tools since then.</p>
 <p>SMSModule - simple utility for sending and reading SMS from a GSM modem.</p>
 
 <blockquote>
-<p>Installation SMSLib:
-Before using this SMS Utility, necessary libraries and drivers must be downloaded first at
-<a href="http://smslib.org/doc/installation/">http://smslib.org/doc/installation/</a> and must be placed into appropriate location.
+<p>Installation SMSLib:</p>
+
+<p>Before using this SMS Utility, necessary libraries and drivers must be downloaded first at
+<a href="http://smslib.org/doc/installation/">SMSLib installation</a> and must be placed into appropriate location.
 If you're still confused from the installation page of SMSLib, you may use the files in the installer.7z package, it was up-to-date (Sep-23-2014).</p>
 
 <p>RxTX installation is a bit confusing since it was platform-dependent.
-NOTE: You MUST match your architecture.  You can't install the i386 version on a 64-bit version of the JDK and vice-versa.</p>
+NOTE: You MUST match your architecture. You can't install the i386 version on a 64-bit version of the JDK and vice-versa.</p>
 
-<p>For Windows 32-bit and 64-bit:
-    For a JDK installation:
-        Copy RXTXcomm.jar ---&gt; \jre\lib\ext
-        Copy rxtxSerial.dll ---&gt; \jre\bin
-        Copy rxtxParallel.dll ---&gt; \jre\bin</p>
+<p>For Windows 32-bit and 64-bit:</p>
 
-<p>For Linux 32-bit and 64-bit
-    For a JDK installation on architecture=i386
-    Copy RXTXcomm.jar ---&gt; /jre/lib/ext
-    Copy librxtxSerial.so ---&gt; /jre/lib/i386/
-    Copy librxtxParallel.so ---&gt; /jre/lib/i386/
-    NOTE: For a JDK installation on architecture=x86_64, just change the i386 to x86_64 above.</p>
+<p>For a JDK installation:</p>
 
-<p>For Mac OSX
-    Copy RXTXcomm.jar and librxtxSereial.jnilib to,
-    /Library/Java/Extensions - to make available to all users 
-    ~/Library/Java/Extensions - to make available to only your user so it is your choice.
-ADDITIONAL INFO:
-    RXTXcomm needs to have /var/lock folder in able to save a lock file. This should be done after the steps above.
-    1. Make a directory “/var/lock”
-    2. Set new ownership and permission of /var/lock
-        &gt; ## sudo chgrp uucp /var/lock
-        &gt; ## sudo chmod 775 /var/lock
-    3. Set all owners of /var/lock to “Read &amp; Write”</p>
+<ul>
+<li>Copy RXTXcomm.jar ---&gt; <code>&lt;JAVA_HOME&gt;\jre\lib\ext</code>
+</li>
+<li>Copy rxtxSerial.dll ---&gt; <code>&lt;JAVA_HOME&gt;\jre\bin</code>
+</li>
+<li>Copy rxtxParallel.dll ---&gt; <code>&lt;JAVA_HOME&gt;\jre\bin</code>
+</li>
+</ul>
+
+<p>For Linux 32-bit and 64-bit</p>
+
+<p>For a JDK installation on architecture=i386</p>
+
+<ul>
+<li>Copy RXTXcomm.jar ---&gt; <code>&lt;JAVA_HOME&gt;/jre/lib/ext</code>
+</li>
+<li>Copy librxtxSerial.so ---&gt; <code>&lt;JAVA_HOME&gt;/jre/lib/i386/</code>
+</li>
+<li>Copy librxtxParallel.so ---&gt; <code>&lt;JAVA_HOME&gt;/jre/lib/i386/</code>
+</li>
+</ul>
+
+<p>NOTE: For a JDK installation on architecture=x86_64, just change the i386 to x86_64 above.</p>
+
+<p>For Mac OSX</p>
+
+<p>Copy RXTXcomm.jar and librxtxSereial.jnilib to,</p>
+
+<ul>
+<li>
+<code>/Library/Java/Extensions</code> - to make available to all users </li>
+<li>
+<code>~/Library/Java/Extensions</code> - to make available to only your user so it is your choice.</li>
+</ul>
+
+<p>ADDITIONAL INFO:</p>
+
+<p>RXTXcomm needs to have /var/lock folder in able to save a lock file. This should be done after the steps above.</p>
+
+<ul>
+<li>Make a directory “/var/lock”</li>
+<li>Set new ownership and permission of /var/lock
+<code>sudo chgrp uucp /var/lock</code>
+<code>sudo chmod 775 /var/lock</code>
+</li>
+<li>Set all owners of /var/lock to “Read &amp; Write”</li>
+</ul>
 </blockquote>
 
 <h1>
@@ -99,13 +127,17 @@ ADDITIONAL INFO:
 
 <p>JavaMail Framework - simple utility for sending Email message.</p>
 
+<blockquote>
+<p>This utility supports HTML or Text only format in mail message.</p>
+</blockquote>
+
 <h1>
 <a id="-----------------------------------------------------------2" class="anchor" href="#-----------------------------------------------------------2" aria-hidden="true"><span class="octicon octicon-link"></span></a>----------------------------------------------------------</h1>
 
-<p>XPersist - utility for handling Eclipselink's EntityManagerFactory. </p>
+<p>XPersist - utility for handling Eclipselink's <code>EntityManagerFactory</code>. </p>
 
 <blockquote>
-<p>This utility reads/updates persistence.xml along runtime, and may alter the host for the specified server.</p>
+<p>This utility reads/updates <code>persistence.xml</code> along runtime, and may alter the host for the specified server.</p>
 </blockquote>
 
 <h1>
