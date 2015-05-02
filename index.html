@@ -4,37 +4,47 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Jutils by eriezelagera</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
+
       <header>
         <h1>Jutils</h1>
-        <p>Simple and handful utilities missing from the main Java package.</p>
-        <p class="view"><a href="https://github.com/eriezelagera/jutils">View the Project on GitHub <small>eriezelagera/jutils</small></a></p>
-        <ul>
-          <li><a href="https://github.com/eriezelagera/jutils/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/eriezelagera/jutils/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/eriezelagera/jutils">View On <strong>GitHub</strong></a></li>
-        </ul>
+        <p>Simple utilities for powerful programming</p>
       </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/eriezelagera/jutils" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/eriezelagera/jutils/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/eriezelagera/jutils/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
       <section>
         <h1>
 <a id="jutils" class="anchor" href="#jutils" aria-hidden="true"><span class="octicon octicon-link"></span></a>jutils</h1>
 
 <p>Simple and handful utilities missing from the main Java package.</p>
 
-<p>JUtils - simple utilities for powerful programming.</p>
-
-<p>This documentation includes changelogs and information about the tools under this framework.
+<p>The information below includes changelogs and information about the tools under this package.
 Old tools are not well documented and not documented at all because this was only my personal
 bunch of tools since then.</p>
 
@@ -95,7 +105,7 @@ ADDITIONAL INFO:
 <p>XPersist - utility for handling Eclipselink's EntityManagerFactory. </p>
 
 <blockquote>
-<p>This utility uses the project's persistence.xml along runtime, and alter's its URL by the specified server.</p>
+<p>This utility reads/updates persistence.xml along runtime, and may alter the host for the specified server.</p>
 </blockquote>
 
 <h1>
@@ -104,18 +114,18 @@ ADDITIONAL INFO:
 <p>Serial/JSSC - utility for communicating with Serial ports.</p>
 
 <blockquote>
-<p>This utility uses java's native gnu.io package and a third party library JSSC. 
+<p>This utility uses Java's native gnu.io package and a third-party library JSSC. 
 I made two different Serial library because I've encountered problem with JSSC on other devices. But performance wise, JSSC is better.</p>
 </blockquote>
 
 <h1>
 <a id="-----------------------------------------------------------4" class="anchor" href="#-----------------------------------------------------------4" aria-hidden="true"><span class="octicon octicon-link"></span></a>----------------------------------------------------------</h1>
       </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/eriezelagera">eriezelagera</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
     </div>
-    <footer>
-      <p>Project maintained by <a href="https://github.com/eriezelagera">eriezelagera</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
