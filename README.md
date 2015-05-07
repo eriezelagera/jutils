@@ -6,7 +6,7 @@ Old tools are not well documented and not documented at all because this was onl
 bunch of tools since then.
 
 Maven Changelog:
-> v1.0  Initial release, and it's now public!
+> v1.0  Initial release, and now in the cloud!
 
 
 ***
