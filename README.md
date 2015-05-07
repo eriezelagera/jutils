@@ -8,7 +8,9 @@ bunch of tools since then.
 Maven Changelog:
 > v1.0  Initial release, and it's now public!
 
-# ---------------------------------------------------------- #
+
+***
+
 
 SMSModule - simple utility for sending and reading SMS from a GSM modem.
 
@@ -16,7 +18,6 @@ SMSModule - simple utility for sending and reading SMS from a GSM modem.
 
 > Before using this SMS Utility, necessary libraries and drivers must be downloaded first at
 > [SMSLib installation](http://smslib.org/doc/installation/) and must be placed into appropriate location.
-> If you're still confused from the installation page of SMSLib, you may use the files in the installer.7z package, it was up-to-date (Sep-23-2014).
 
 	
 > RxTX installation is a bit confusing since it was platform-dependent.
@@ -58,24 +59,30 @@ SMSModule - simple utility for sending and reading SMS from a GSM modem.
 >    `sudo chgrp uucp /var/lock`
 >    `sudo chmod 775 /var/lock`
 > - Set all owners of /var/lock to “Read & Write”
-		
-# ---------------------------------------------------------- #
+
+
+***
+
 
 JavaMail Framework - simple utility for sending Email message.
 
 > This utility supports HTML or Text only format in mail message.
 
-# ---------------------------------------------------------- #
+
+***
+
 
 XPersist - utility for handling Eclipselink's `EntityManagerFactory`. 
 
 > This utility reads/updates `persistence.xml` along runtime, and may alter the host for the specified server.
 
-# ---------------------------------------------------------- #
+
+***
+
 
 Serial/JSSC - utility for communicating with Serial ports.
 
 > This utility uses Java's native gnu.io package and a third-party library JSSC. 
 > I made two different Serial library because I've encountered problem with JSSC on other devices. But performance wise, JSSC is better.
 	
-# ---------------------------------------------------------- #
+***
